@@ -1,0 +1,17 @@
+@startwbs
+'https://plantuml.com/wbs-diagram
+
+* Danger Zones in France - Sprint 1 Completed
+** Data Collection
+*** Gather Translations of Various CSV files for each year
+**** Codify the translation into Enums and jsons for standardizations
+*** Data Transformer
+**** Transform the data and create merged files (feather/csv)
+** Prototype Phase
+*** Mapping Phase
+**** Experimentation with Map Libraries and Map providers(Mapbox is my fav)
+*** Algo Phase
+**** Experiment with clustering as we need to divide France into zones
+** Complete Prototype Phase
+*** Choose the best algorithm/model and go on to larger data set
+@endwbs

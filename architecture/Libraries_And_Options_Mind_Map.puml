@@ -1,0 +1,35 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+caption figure
+title Mind Map for my Libraries and Tools
+
+*  File Formats
+** Parquet/Feather : production
+** CSV for prototypes
+* DataFramers
+** Pandas (slow) : prototype
+** Dask (production) (Depends on others in the group)
+* Notebooks
+** Kaggle
+** MLOPS tools for productions (see if others help other wise keep kaggle)
+* Graphing Libraries
+** Plotly
+** Mapbox
+** Folium
+** Carto (although 14 days trial)
+** Pydeck
+** Own maps with Hexabins (as we have geo)
+* Machine Learning Algo
+** Kmeans (throw out as too simple but could be a backup)
+** HDBSCAN (used in current prototype)
+** ?* (Open)
+* Misc Libraries )
+** Geometry (lat /long into geometry points)
+** geohash
+
+
+legend right
+First_draft
+endlegend
+@endmindmap

@@ -1,0 +1,15 @@
+@startgantt
+'https://plantuml.com/gantt-diagram
+Project starts 2024-12-19
+[Data Collection and Cleaning] lasts 1 week  and is colored in IndianRed
+[Prototype design] lasts 2 weeks and is colored in PHYSICAL and starts after [Data Collection and Cleaning]'s end
+[Validate Prototype] requires 5 days and is colored in Coral/Green and starts after [Prototype design]'s end
+[Data Preparation Preprocessing] requires 2 weeks and is colored in PowderBlue and starts after [Validate Prototype]'s end
+[Model Selection] requires 2 weeks and is colored in IndianRed and starts after [Data Preparation Preprocessing]'s end
+[Model Validation and Optimization] requires 1 week and starts after [Model Selection]'s end
+[Streamlit App] requires 2 week and is colored in Coral and starts after [Model Validation and Optimization]'s end
+[Final Testing and Report Writing] requires 1 week and is colored in Green and starts after [Streamlit App]'s end
+[MLOPS] requires 4 weeks
+
+
+@endgantt
